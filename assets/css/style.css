@@ -7619,4 +7619,10 @@ article {
   transition: all 0.75s ease-out;
 }
 
+model-viewer{
+  width: 700px;
+  height: 700px;
+  margin: 0 auto;
+}
+
 /*# sourceMappingURL=style.css.map */
