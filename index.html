@@ -4,22 +4,23 @@
 <html lang="zxx">
 <head>
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-<link rel="stylesheet" href="assets/css/flaticon.css">
-<link rel="stylesheet" href="assets/css/remixicon.css">
-<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-<link rel="stylesheet" href="assets/css/swiper-min.css">
-<link rel="stylesheet" href="assets/css/magnific-popup.min.css">
-<link rel="stylesheet" href="assets/css/fancybox.css">
-<link rel="stylesheet" href="assets/css/aos.css">
-<link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" href="assets/css/dark-theme.css">
-<link rel="stylesheet" href="assets/css/responsive.css">
-<title>okom - A online shoe shop you can rely on</title>
-<link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/remixicon.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="assets/css/fancybox.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/dark-theme.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <title>okom - A online shoe shop you can rely on</title>
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
 </head>
 <body>
 
@@ -123,7 +124,7 @@ Shop
 <img src="assets/img/product-24.png" alt="Image">
 </div>
 <div class="cart-item-info">
-<h5><a href="#">Over-Ear Headphone</a></h5>
+<h5><a href="#">Sports shoes</a></h5>
 <p>$28.00</p>
 </div>
 </div>
@@ -189,8 +190,12 @@ Shop
                     </div>
             </div>
 
-            <div class="col-xl-6 col-lg-6" style="background-color: #145eff;">
-                <iframe src='https://my.spline.design/untitled-bb4dfaef10974e13353655827244a785/' frameborder='0' width='100%' height='500px'></iframe>
+            <div class="col-xl-6 col-lg-6">
+                <div style="display: flex; width:100%; justify-content:center; align-items:center;">
+
+                    <model-viewer src="./assets/js/scene.gltf" camera-controls ></model-viewer>
+
+                </div>
             </div>
         </div>
     </div>
@@ -537,8 +542,5 @@ Shipping
 <script src="assets/js/progressbar.min.js"></script>
 <script src="assets/js/main.js"></script>
 <script src="./assets/js/app.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-<script src="./assets/js/gtlfLoader.js"></script>
-<script src="./assets/js/orbitControl.js"></script>
 </body>
 </html>
